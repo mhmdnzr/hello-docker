@@ -1,0 +1,26 @@
+# docker build -t hello-docker .
+# docker image ls or docker images
+# observe docker running process: docker ps | docker ps -a
+# docker pull ubuntu (docker take it from online host and download it on local machine)
+# instead we can use this command: docker run ubuntu (if we had this image locally, it run! if we didn't have it, it download and run)
+
+
+
+# ubuntu run in interactive mode
+docker run -it ubuntu 
+
+
+# all pkgs we are installed on linux
+apt-list
+
+# update pkgs
+apt update
+
+# we can install our pkg we need it
+apt install nano
+
+# remove app
+apt remove <pkg name>
+
+
+
